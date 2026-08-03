@@ -1,7 +1,7 @@
 # 🌌 LungoOS Repository
-Добро пожаловать в репозиторий пакетов LungoOS. Здесь собраны оптимизированные сборки для слабого железа.
+Welcome to the official LungoOS package repository. Here you can find optimized builds tailored for low-end hardware.
 
-### 📦 Доступные пакеты:
-| Имя пакета | Версия |
+### 📦 Available Packages:
+| Package Name | Version |
 | :--- | :--- |
 | 🔹 **termtix** | 1.2-1 |
