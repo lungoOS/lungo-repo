@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LungoOS Repository</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #0d1117; color: #c9d1d9; max-width: 800px; margin: 40px auto; padding: 0 20px; }
+        h1 { color: #58a6ff; border-bottom: 1px solid #21262d; padding-bottom: 10px; }
+        p { color: #8b949e; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; background: #161b22; border-radius: 6px; overflow: hidden; }
+        th, td { padding: 12px; text-align: left; border-bottom: 1px solid #21262d; }
+        th { background: #21262d; color: #f0f6fc; }
+        tr:hover { background: #1f242c; }
+        .btn { display: inline-block; background: #238636; color: white; text-decoration: none; padding: 5px 10px; border-radius: 6px; font-size: 13px; font-weight: bold; }
+        .btn:hover { background: #2ea043; }
+        code { background: #21262d; padding: 3px 6px; border-radius: 6px; font-family: monospace; color: #ff7b72; }
+    </style>
+</head>
+<body>
+    <h1>🌌 Репозиторий пакетов LungoOS</h1>
+    <p>Официальное зеркало скомпилированных пакетов для слабого железа. Чтобы подключить его, добавьте в ваш <code>/etc/pacman.conf</code>:</p>
+    <pre style="background: #161b22; padding: 15px; border-radius: 6px; border: 1px solid #21262d; color: #79c0ff;">[lungo-repo]
+SigLevel = Optional TrustAll
+Server = https://github.io</pre>
+
+    <h3>📦 Список доступных пакетов:</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Имя пакета</th>
+                <th>Версия и Архитектура</th>
+                <th>Действие</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>📦 <strong>termtix</strong></td><td><code>1.2-1</code></td><td><a href="termtix-1.2-1-x86_64.pkg.tar.zst" class="btn" style="color: white;">Скачать .zst</a></td></tr>
+        </tbody>
+    </table>
+</body>
+</html>
