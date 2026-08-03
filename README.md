@@ -10,4 +10,5 @@ Server = https://lungoos.github.io/lungo-repo
 ### 📦 Available Packages:
 | Package Name | Version |
 | :--- | :--- |
+| 🔹 **nova** | 7.1.0-1 |
 | 🔹 **termtix** | 1.2-1 |
